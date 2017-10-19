@@ -1,22 +1,15 @@
 import keyboard
-
-x=0
-def fx():
-    global x
-    x+=1
-    keyboard.write('foo')
-    print(x)
-
-#lambda: x+1 and keyboard.write('foobar'))
+#generator
 def sup():
     for one_iteration in data:
         yield  one_iteration
+#weird function name 
 s888 = sup()
 
 with open('data.txt', 'r') as myfile:
     data=myfile.read().replace('\n', '')
 
-
+#bind keys
 keyboard.add_hotkey('q',lambda:keyboard.write(str(next(s888),)))
 keyboard.add_hotkey('w',lambda:keyboard.write(str(next(s888),)))
 keyboard.add_hotkey('e',lambda:keyboard.write(str(next(s888),)))
@@ -70,8 +63,6 @@ keyboard.add_hotkey(' ',lambda:keyboard.write(str(next(s888),)))
 keyboard.add_hotkey('\\',lambda:keyboard.write(str(next(s888),)))
 
 
-
-
-
+#no threading atm 
 while True :
     pass
