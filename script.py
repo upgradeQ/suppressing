@@ -63,6 +63,6 @@ keyboard.add_hotkey(' ',lambda:keyboard.write(str(next(s888),)))
 keyboard.add_hotkey('\\',lambda:keyboard.write(str(next(s888),)))
 
 
-#no threading atm 
+#TODO: exit when index out of range
 while True :
     pass
