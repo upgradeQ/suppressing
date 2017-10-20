@@ -4,6 +4,9 @@ This script uses text from data.txt and when you type random keystrokes, it will
 # Installation 
 Clone or download this repo. Then run `python setup.py install` or            
 `pip install  git+git://github.com/HQupgradeHQ/suppressing.git --process-dependency-links` 
+# Usage 
+- Start suppressing  <kbd>Ctrl</kbd> + <kbd>3</kbd> 
+- Stop  <kbd>Ctrl</kbd> + <kbd>4</kbd> 
 # Demo
 ![](https://raw.githubusercontent.com/HQupgradeHQ/suppressing/master/demo.gif)
 
