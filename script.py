@@ -1,4 +1,6 @@
 import keyboard
+import subprocess
+import time
 #generator
 def sup():
     for one_iteration in data:
@@ -74,6 +76,14 @@ while True:
     #control + 3 to start "typing" control + 4 to stop    
     keyboard.wait('Ctrl+3')
     do()
+    keyboard.wait('Ctrl+5')
+    #use it wisely you can't unlock keyboard 
+    try:
+        block = subprocess.Popen('python3 keyboard_block.py')
+        time.sleep(2.5)
+        block.kill()
+    except Exception:
+        pass
     keyboard.wait('Ctrl+4')
     keyboard.unhook_all()
     #start again
