@@ -4,7 +4,7 @@ This script uses text from data.txt and when you type random keystrokes, it will
 ![](https://img.shields.io/badge/linux-failed-red.svg)
 # Installation 
 Clone or download this repo. Then run `python setup.py install` or           
-`pip install  git+git://github.com/HQupgradeHQ/suppressing.git --process-dependency-links`.           
+`pip install  git+git://github.com/HQupgradeHQ/suppressing.git --process-dependency-links`        
  
 # Usage 
 - Start suppressing  <kbd>Ctrl</kbd> + <kbd>3</kbd> 
