@@ -3,8 +3,8 @@ This script uses text from data.txt and when you type random keystrokes, it will
 [![awesome](https://img.shields.io/badge/awesome-typing-ff69b5.svg)](https://github.com/HQupgradeHQ/suppressing)
 ![](https://img.shields.io/badge/linux-failed-red.svg)
 # Installation 
-Clone or download this repo or           
-`pip install  git+git://github.com/HQupgradeHQ/suppressing.git --process-dependency-links`. Then run `python setup.py install` .            
+Clone or download this repo. Then run `python setup.py install` or           
+`pip install  git+git://github.com/HQupgradeHQ/suppressing.git --process-dependency-links`.           
  
 # Usage 
 - Start suppressing  <kbd>Ctrl</kbd> + <kbd>3</kbd> 
