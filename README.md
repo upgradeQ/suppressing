@@ -9,6 +9,7 @@ Clone or download this repo. Then run `python setup.py install` or
 # Usage 
 - Start suppressing  <kbd>Ctrl</kbd> + <kbd>3</kbd> 
 - Stop  <kbd>Ctrl</kbd> + <kbd>4</kbd> 
+- Block <kbd>Ctrl</kbd> + <kbd>5</kbd> (2.5 sec)
 # Demo
 ![](https://raw.githubusercontent.com/HQupgradeHQ/suppressing/master/demo.gif)
 
