@@ -1,4 +1,4 @@
-# Global key presses replace 
+# Dotlive anywhere , not just in console .
 This script uses text from data.txt and when you type random keystrokes, it will appear as one of chars from that file.
 [![awesome](https://img.shields.io/badge/awesome-typing-ff69b5.svg)](https://github.com/HQupgradeHQ/suppressing)
 
