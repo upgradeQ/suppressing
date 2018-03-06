@@ -15,3 +15,11 @@ Clone or download this repo. Then run `python setup.py install` or
 # Demo
 ![](https://raw.githubusercontent.com/HQupgradeHQ/suppressing/master/demo.gif)
 
+# Contributing
+
+* Fork it: https://github.com/HQupgradeHQ/suppressing/fork
+* Create your feature branch: git checkout -b my-new-feature
+* Commit your changes: git commit -am 'Add some feature'
+* Push to the branch: git push origin my-new-feature
+* Submit a pull request!
+
